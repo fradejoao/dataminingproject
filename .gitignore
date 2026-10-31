@@ -1,0 +1,25 @@
+# Local copies of teaching material and the original dataset
+.local/
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+materials/
+
+# Python, Jupyter and local configuration
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated scratch exports
+outputs/
+*.log
