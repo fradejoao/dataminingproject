@@ -1,56 +1,20 @@
-# ACDC — Data Mining Project 2026/2027
+# ACDC — Data Mining Project
 
-Customer segmentation for Amazing Creative Desk Coworking (ACDC), developed for the Data Mining course at Nova IMS.
+Customer segmentation for Amazing Creative Desk Coworking (ACDC).
 
-The project studies customer value and usage behaviour, then develops and evaluates a segmentation that supports business decisions.
+Data Mining, Nova IMS — 2026/2027.
 
-## Current stage
+## Files
 
-Planning and initial data reconnaissance for **Deliverable 1: Exploratory Data Analysis**, due **4 November 2026** according to the supplied project guidelines. The final submission time and discussion arrangements should be checked on Moodle.
+- `notebooks/`: project analysis notebooks.
+- `data/raw/`: original dataset, stored locally and ignored by Git.
+- `requirements.txt`: Python dependencies.
 
-The project notebook and slides will be developed next. This repository is a starting structure, not a completed submission.
+## Setup
 
-- [Work plan and deliverable checklist](docs/PLANO_ENTREGA_1.md)
-- [Course materials and methods covered](docs/MAPA_MATERIAIS.md)
-- [Initial dataset audit](docs/AUDITORIA_INICIAL.md)
-- [AI assistance log](docs/AI_USAGE.md)
-
-## Repository structure
-
-```text
-data/raw/          Original CSV, stored locally and ignored by Git
-data/processed/    Derived datasets, stored locally and ignored by Git
-docs/              Planning, sources, decisions and assistance log
-notebooks/         Project analysis notebooks
-```
-
-## Local setup
-
-Use Python and a virtual environment. The initial dependency list follows the tools used in class; an executed project notebook and tested version information will be added as the analysis develops.
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+```bash
 python -m pip install -r requirements.txt
 python -m jupyterlab
 ```
 
-Place the supplied `acdc_dataset.csv` in `data/raw/`. It is semicolon-delimited. From a notebook in `notebooks/`, the intended import is:
-
-```python
-import pandas as pd
-
-df_raw = pd.read_csv("../data/raw/acdc_dataset.csv", sep=";")
-df = df_raw.copy()
-```
-
-The original CSV, teaching PDFs and teaching notebooks are not distributed in this public repository. The course materials remain available through the [instructor's repository](https://github.com/anacaleiro/Data-Mining-26-27).
-
-## Submission names
-
-The guidelines specify submission filenames, not a mandatory GitHub repository name. Replace `XX` with the actual Moodle group number:
-
-- `GroupXX_EDA_Code.ipynb`
-- `GroupXX_EDA_Slides.pdf`
-
-Contributors, group number, analyses and final conclusions will be recorded as the group develops and reviews the work.
+Place `acdc_dataset.csv` in `data/raw/` before running the analysis.
