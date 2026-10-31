@@ -1,8 +1,3 @@
-# Initial tools used in the course; environment verification is pending.
-numpy
 pandas
 matplotlib
-seaborn
-scipy
-scikit-learn
 jupyterlab

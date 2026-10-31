@@ -4,6 +4,8 @@ Customer segmentation for Amazing Creative Desk Coworking (ACDC).
 
 Data Mining, Nova IMS — 2026/2027.
 
+[Initial exploration notebook](notebooks/GroupXX_EDA_Code.ipynb)
+
 ## Files
 
 - `notebooks/`: project analysis notebooks.
