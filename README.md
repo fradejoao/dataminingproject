@@ -8,10 +8,13 @@ Data Mining, Nova IMS, 2026/2027.
 
 ## Intermediate submission
 
-The final submission files are in `delivery/`:
+Submission title: **Group 21**. Only one group member needs to upload the files. Per the supplied Moodle upload instructions, use these sections:
 
-- [Group21_EDA_Code.ipynb](delivery/Group21_EDA_Code.ipynb)
-- [Group21_EDA_Slides.pdf](delivery/Group21_EDA_Slides.pdf)
+- **Code:** [Group21_EDA_Code.ipynb](delivery/Group21_EDA_Code.ipynb).
+- **Slides:** `Group21_EDA_Slides.pdf`, after the colleague finishes updating the presentation. The PDF currently in `delivery/` is the earlier core presentation.
+- **OPTIONAL Bonus:** [Group21_EDA_Bonus_Code.zip](delivery/Group21_EDA_Bonus_Code.zip), containing the external dashboard source, dependencies, instructions, tests and a preview. The anomaly-detection bonus is already inside the main notebook and does not need to be submitted twice. Both bonus locations are explicitly stated at the beginning of the notebook.
+
+`Group21_EDA_ParaColegas.zip` is a local sharing package with data, not the required Moodle bonus-code filename. The code-only bonus archive expects the separately submitted main notebook and the original course CSV; its README explains the folder layout and execution steps.
 
 The [editable presentation](slides/Group21_EDA_Slides.pptx) is kept separately. The PDF contains the cover and five content slides. The 4 November core-delivery check reran the original 68 notebook code cells in a clean kernel, independently reproduced the numerical slide claims from the raw CSV, and inspected all six rendered slides. The presentation's sensitivity-chart rounding was aligned with the notebook table. A detailed local review record is retained in `.local/`, which is ignored by Git.
 
