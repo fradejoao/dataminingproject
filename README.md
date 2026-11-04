@@ -19,6 +19,8 @@ The notebook now includes both optional intermediate bonuses: multidimensional a
 
 The notebook includes the ACDC business context, documented data cleaning, distributions and relationships, comparisons within plans and account types, service-use patterns, recorded membership trends, and sensitivity to the flagged revenue pattern. Engineered features cover last-period plan utilization and the number of reported services used. Economic comparisons use observed nonnegative revenue, with coverage and exclusions reported explicitly. The closing sections assess candidate features and redundancy, state provisional profile hypotheses, and explain limitations to address before clustering.
 
+All 12 notebook figures use plain white backgrounds without grid lines and a distinct blue/orange/green palette. Boxplots have filled boxes with dark medians and outlines; anomaly points also use different marker shapes. The visual update preserved every numerical text result. [PNG exports for the slides](slides/assets/notebook/) are available alongside the notebook outputs.
+
 ## Optional anomaly bonus
 
 The bonus uses Isolation Forest on log-transformed nonnegative revenue, utilization and service variety. It scores 14,318 members and flags 144 at a chosen 1% review budget. Of these, 66 also have the existing zero-revenue/recency-999 pattern. The analysis includes member profiles, a two-panel plot, example cases, threshold sensitivity and a second random seed. Flags are exploratory: all 15,450 members remain in the main dataset. This is an extension of the course's data-quality workflow; Isolation Forest goes beyond the Lab 06 IQR/manual examples. See the notebook for the method reference and limitations.

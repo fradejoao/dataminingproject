@@ -2,6 +2,8 @@
 
 The notebook now includes both optional intermediate bonuses. The current PDF and PPTX still contain the previously reviewed core presentation. Integrate these short additions into existing content slides, keeping the five-slide limit. Slide 5 can include a compact callout; the data-quality slide is another suitable location for the anomaly summary.
 
+Updated [notebook figures](assets/notebook/) use white backgrounds without grids and stronger colors, as requested by the instructor. Replace the relevant embedded plot images in the current slides; the PNG changes do not update the PPTX automatically.
+
 ## Suggested combined callout
 
 **Optional bonuses: anomaly review + interactive EDA**
