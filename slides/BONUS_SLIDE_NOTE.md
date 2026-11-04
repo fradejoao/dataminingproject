@@ -1,8 +1,22 @@
-# Bonus addition for the existing five content slides
+# Bonus additions for the existing five content slides
 
-The notebook now includes the optional multidimensional anomaly analysis. The current PDF and PPTX still contain the previously reviewed core presentation. Integrate this short addition into an existing content slide, keeping the five-slide limit. Slide 5 can include it as a small final callout; the data-quality slide is another suitable location if it fits better.
+The notebook now includes both optional intermediate bonuses. The current PDF and PPTX still contain the previously reviewed core presentation. Integrate these short additions into existing content slides, keeping the five-slide limit. Slide 5 can include a compact callout; the data-quality slide is another suitable location for the anomaly summary.
 
-## Suggested slide wording
+## Suggested combined callout
+
+**Optional bonuses: anomaly review + interactive EDA**
+
+- Isolation Forest: **144 / 14,318** members flagged at a chosen 1% review budget; all members retained.
+- Interactive dashboard: filters by plan, account type and review cohort; distributions, service comparisons and member drill-down.
+- Available sample sizes remain visible; source code and launch instructions are in the project repository.
+
+Screenshot: [Group21_Dashboard.png](assets/Group21_Dashboard.png). A small screenshot can accompany the dashboard bullet if space allows. Avoid making the plots unreadably small just to include a screenshot.
+
+What to say: "We added a local interactive tool so stakeholders can explore the same prepared data themselves. Filters update the indicators, charts and tables, while revenue and utilization show their actual coverage. We can inspect flagged cases without deleting members."
+
+For a live demonstration, run all notebook cells and start `python -m streamlit run dashboard/app.py` from the repository root after installing `requirements-dashboard.txt`. Select Private Office to illustrate different revenue/utilization patterns, reset, and select Anomaly Review Candidates. Do not present the local address as a publicly hosted link; cite the GitHub source and README for reproduction.
+
+## Anomaly-only slide wording
 
 **Bonus — Multidimensional anomaly review**
 
